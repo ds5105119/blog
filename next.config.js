@@ -1,3 +1,11 @@
+const nextConfig = {
+  basePath: "/ds510119.github.io",
+  images: {
+    unoptimized: true,
+  },
+};
+
+
 const { withContentlayer } = require('next-contentlayer2')
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
