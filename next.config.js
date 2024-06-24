@@ -1,5 +1,5 @@
 const nextConfig = {
-  basePath: "/ds510119.github.io",
+  basePath: "/blog",
   images: {
     unoptimized: true,
   },
