@@ -1,10 +1,10 @@
 const nextConfig = {
-  basePath: "/blog",
+  output: 'export',
+  basePath: '/blog',
   images: {
     unoptimized: true,
   },
-};
-
+}
 
 const { withContentlayer } = require('next-contentlayer2')
 
